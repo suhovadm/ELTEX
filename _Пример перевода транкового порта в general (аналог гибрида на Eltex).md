@@ -5,7 +5,8 @@ interface tengigabitethernet 0/2
   switchport mode trunk  
   switchport trunk native vlan 1850  
   no lldp transmit // запрещает отправку LLDP-пакетов с интерфейса.  
-  no lldp receive // запрещает приём LLDP-пакетов на интерфейсе. Таким образом, интерфейс не отправляет и не принимает LLDP-информацию.  
+  no lldp receive // запрещает приём LLDP-пакетов на интерфейсе. 
+  // Таким образом, интерфейс не отправляет и не принимает LLDP-информацию.  
 
 ___ [Стал такой конфиг на порту] ___  
 interface tengigabitethernet 0/2  
