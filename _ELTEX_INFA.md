@@ -48,3 +48,6 @@ show version
 show interfaces description  
 
 show interfaces [номер конкретного порта, например te 0/2]  
+
+// Как посмотреть спеки портов - статус работы, скорость, дуплекс, тип медиа/трансивера?  
+show interfaces status  
